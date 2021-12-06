@@ -18,7 +18,7 @@ for command in commands:
     else:
         depth -= (int)(command[1])
 
-print(f'Horizontal: {horizontal}\tDepth: {depth}')
+print(f'Horizontal: {horizontal}\tDepth: {depth} ')
 print(f'Product: {depth * horizontal}')
 
 # Part 2 Solution
